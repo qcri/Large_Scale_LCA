@@ -9,7 +9,7 @@ comparing clustering algorithms (namely, agglomerative hierarchical clustering, 
 
 
 ## Activations
-The **ConceptX** library was used to generate activations per layer for BERT models. After installing the required dependencies (as detailed on the [library's repo](https://github.com/hsajjad/ConceptX)), the following command can be used to extract acivations of a specifc layer:
+The [**ConceptX**](https://github.com/hsajjad/ConceptX) library was used to generate activations per layer for BERT models. After installing the required dependencies of ConceptX, the following command can be used to extract acivations of a specifc layer:
 
 ```
 /bin/bash get_activations.sh <ConceptX_SCRIPT_DIR> <PATH_TO_SENTENCE_FILE> <NAME_SENTENCE_FILE> <BERT_MODEL> <MAX_SENTENCE_LENGTH> <MIN_WORD_FREQ> <MAX_WORD_FREQ> <DELETE_FREQ> <TARGET_LAYER>
