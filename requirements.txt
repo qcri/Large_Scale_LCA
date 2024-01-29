@@ -1,0 +1,6 @@
+numpy==1.21.5
+memory_profiler==0.61.0
+scikit-learn==0.24.2
+dill==0.3.4
+annoy==1.17.2
+conda==23.1.0
