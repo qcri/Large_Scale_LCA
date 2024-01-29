@@ -38,3 +38,16 @@ python alignment.py --sentence-file <SENTENCES> --label-file <LABELS> --cluster-
 
 The script requires a sentence file and and its annotation label file that represent the human concept (e.g. Part of Speech tags).
 Threshold is the percentage `\theta` at which an encoded cluster and a human-defined concept are assumed aligned. In our experiments we used `\theta = 0.95`.
+
+## Citation
+Please cite this paper if you use the software
+```
+@article{hawasly2024scaling,
+  title={Scaling up Discovery of Latent Concepts in Deep NLP Models,
+  author={Hawasly, Majd
+    and Dalvi, Fahim
+    and Durrani, Nadir},
+  journal={Proceedings of the The 18th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+  year={2024}
+}
+```
