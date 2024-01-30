@@ -1,4 +1,4 @@
-# Scaling up Discovery of Latent Concepts in Deep NLP Models
+# Latent Concept Analysis
 
 
 This repository has the code for the paper 
